@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Pacifico|Righteous|Roboto+Condensed|Ubuntu&display=swap');
+
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'lato';
+}
+.navbar-brand{
+    font-family: 'Pacifico';
+    font-size: 35px;
+    color: lightcoral !important;
+
+}
+.nav-link{
+   font-size: 16px;
+   margin: 15px;
+   color:black !important;
+   font-family: 'Roboto Condensed';
+   
+}
+.nav-link:hover{
+    color: #008E8E !important;
+}
+.active .nav-link{
+    color: #008E8E !important;
+}
+.menu-right-btn{
+    padding: 13px 46px;
+    margin-right: 4%;
+    background-color: transparent;
+    transition: all 300ms ease-in;
+}
+.menu-right-btn:hover{
+    color: white;
+    background-color: #008E8E;
+}
+.site-content{
+    width: 100%;
+    background: url('img/wedding\ .jpg') no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+
+}
+.site-titel,.site-desc {
+    color:#330000;
+    font-family: 'Righteous';
+}
+.site-titel{
+    margin-top: 28%;
+    margin-bottom: 5%;
+    font-size: 50px;
+}
+.site-desc{
+    padding-left: 9%;
+    font-size: 18px;
+
+}
+.site-btn1{
+    margin-left: 24%;
+    background-color:black;
+    color: white;
+  
+
+}
+.site-btn2{ 
+   background-color: white;
+   margin-left: 10%;
+
+}
+
+.site-btn1,.site-btn2{
+     margin-top: 15%;
+    margin-bottom: 20%;
+    font-family: 'Righteous';
+}
+
